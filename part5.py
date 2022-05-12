@@ -2,7 +2,7 @@
 ______
 PART 5
 ______
-Write a program that prompts the user for two string inputs, a first name and a last name. The program will print the string "Hello, <firstname> <lastname>".
+Write a program that prompts the user for two string iputs, a first name and a last name. The program will print the string "Hello, <firstname> <lastname>".
 
 What should appear on the console when the program runs:
 
@@ -13,3 +13,6 @@ Hello, Ash Ketchum
 '''
 
 #start writing your code below
+first = input("What is your first name? ")
+last = input("What is your last name? ")
+print ("Hello, " + str(first) + " " +  str(last))
